@@ -202,3 +202,4 @@ jobs:
           sha256sum pulsar-*.bin zigbee-*.ybl pulsar-*.zip pulsar-*.tar.gz > SHA256SUMS
           gh release create "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --generate-notes \
             pulsar-*.bin pulsar-*.debug zigbee-*.ybl pulsar-*.zip pulsar-*.tar.gz SHA256SUMS
+# fork CI registration (harmless comment; enables Actions in this fork)
